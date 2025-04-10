@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="using The Cat API">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Assignment 4 - The Cat API</title>
+    <script src="./js/script.js" defer></script> <!-- link to javascript file-->
+    <link href="./css/style.css" rel="stylesheet"> <!-- link to css file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- link to google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Random Cat Breed</h1>
+
+        <!-- links that were used to set up the cat api: https://thecatapi.com/-->
+        <p>Links that we're used to set up the API :</p>
+        <a href="https://developers.thecatapi.com/view-account/ylX4blBYT9FaoVd6OhvR?report=bOoHBz-8t">The Cat API</a>
+        <a href="https://thatapicompany.com/a-guide-on-how-to-use-thecatapi/">How to set up The Cat API</a>
+    </header>
+
+    <main>
+        <!-- button to retireve cat information from the api-->
+        <button id="randomCat">Click to get a random cat breed</button>
+
+        <!-- section to display the breed name-->
+        <h2 id="breedName"></h2>
+
+        <!-- container where the image will be created using javascript-->
+        <div id="catImageContainer">
+       
+        </div>
+
+        <h2>Breed Characteristics :</h2>
+
+        <!-- section for the breed name-->
+        <div>
+            <h3>Name :</h3>
+            <h4 id="name"></h4>
+        </div>
+
+        <!-- section for the breed origin-->
+        <div>
+            <h3>Origin :</h3>
+            <h4 id="origin"></h4>
+        </div>
+
+        <!-- section for the breed description-->
+        <h3>Description :</h3>
+        <h4 id="description"></h4>
+        <!-- section for the breed temperament-->
+        <h3>Temperament :</h3>
+        <h4 id="temperament"></h4>
+        <!-- section for the wikipeadia link for the breed -->
+        <h3>Wikipedia URL :</h3>
+        <a id="wikipediaUrl"></a>
+    </main>
+
+    <!-- section to display the student id through javascript -->
+    <footer>
+        <p id="studentId"></p>
+    </footer>
+
+</body>
+
+
+</html>
